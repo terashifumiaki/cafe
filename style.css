@@ -2,8 +2,76 @@
     position: relative;
     height: 100vh;
     min-height: 300px;
+    background: url(image/mainimage.jpg) no-repeat center center;
+    background-size: cover;
+    
 }
 
-h1{
-    color: blue;
+
+
+/*コンセプトの上*/
+.space1 {
+    padding-top: 140px;
+    
+}
+  
+/*コンセプト*/
+
+/*.img-fluid {*/
+    /*margin-left: -40px;*/
+/*}*/
+
+.space2 {
+    padding-top: 65px;
+    
+}
+
+.image-yoko p {
+    padding-top: 33px;
+    line-height: 31px;
+}
+
+.image-yoko {
+    margin-left: 60px;
+    margin-right: 15px;
+}
+
+.space4 {
+    margin-top: 200px;
+    margin-left: 20px;
+    margin-right: 60px;
+}
+
+
+/*メニュー*/
+
+.blendtitle {
+
+}
+
+.blendsubtitle {
+    text-align: right;
+    margin-right: 75px;
+}
+
+span {
+    display: inline-block;
+    width: 7em;
+}
+
+.ac{
+    text-align: center;
+}
+
+/*スウィート*/
+
+.sweet {
+    margin-top: 100px;
+}
+
+
+/*アクセス*/
+
+.miveright {
+    margin-right: -200px;
 }
