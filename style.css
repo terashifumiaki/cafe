@@ -1,7 +1,31 @@
 /*各フォント*/
+
 /*font-family: 'Libre Baskerville', serif;*/
+
 /*font-family: 'Noto Sans JP', sans-serif;*/
+
 /*font-family: 'Noto Serif JP', serif;*/
+
+.image-yoko p {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.image-yoko h2 {
+    font-family: 'Noto Serif JP', serif;
+}
+
+.space3 {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.blendtitle h4 {
+    font-family: 'Libre Baskerville', serif;
+    padding-top: 25px;
+}
+
+.blendtitle p {
+    font-family: 'Noto Serif JP', serif;
+}
 
 
 .snsicon {
@@ -15,13 +39,20 @@
 }
 
 .down i {
-   
-    position: relative; top: 700px; left: 50vw;
-      animation: blinkAnime 0.5s infinite alternate;
+
+    position: relative;
+    top: 700px;
+    left: 50vw;
+    animation: blinkAnime 0.5s infinite alternate;
 }
-@keyframes blinkAnime{
-   0% { color: #ffffff }
- 100% { color: #000000 }
+
+@keyframes blinkAnime {
+    0% {
+        color: #ffffff
+    }
+    100% {
+        color: #000000
+    }
 }
 
 
@@ -30,35 +61,39 @@ body {
 }
 
 /* チェックボックスは非表示に */
+
 .drawer-hidden {
-  display: none;
+    display: none;
 }
 
 /* ハンバーガーアイコンの設置スペース */
+
 .drawer-open {
-  padding-left: 50px;
-  display: flex;
-  height: 65px;
-  width: 60px;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  z-index: 100;/* 重なり順を一番上に */
-  cursor: pointer;
+    padding-left: 50px;
+    display: flex;
+    height: 65px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    /* 重なり順を一番上に */
+    cursor: pointer;
 }
 
 /* ハンバーガーメニューのアイコン */
+
 .drawer-open span,
 .drawer-open span:before,
 .drawer-open span:after {
-  content: '';
-  display: block;
-  height: 2px;
-  width: 30px;
-  border-radius: 3px;
-  background: #ffdead;
-  transition: 0.5s;
-  position: absolute;
+    content: '';
+    display: block;
+    height: 2px;
+    width: 30px;
+    border-radius: 3px;
+    background: #ffdead;
+    transition: 0.5s;
+    position: absolute;
 }
 
 header #mac ul {
@@ -72,56 +107,59 @@ header #mac ul li a {
     color: #ffdead;
     line-height: 60px;
     text-decoration: none;
-    
+
 }
 
 /* 三本線のうち一番上の棒の位置調整 */
+
 .drawer-open span:before {
-  bottom: 8px;
+    bottom: 8px;
 }
 
 /* 三本線のうち一番下の棒の位置調整 */
+
 .drawer-open span:after {
-  top: 8px;
+    top: 8px;
 }
 
 /* アイコンがクリックされたら真ん中の線を透明にする */
-#drawer-check:checked ~ .drawer-open span {
-  background: rgba(255, 255, 255, 0);
+
+#drawer-check:checked~.drawer-open span {
+    background: rgba(255, 255, 255, 0);
 }
 
 /* アイコンがクリックされたらアイコンが×印になように上下の線を回転 */
-#drawer-check:checked ~ .drawer-open span::before {
-  bottom: 0;
-  transform: rotate(45deg);
+
+#drawer-check:checked~.drawer-open span::before {
+    bottom: 0;
+    transform: rotate(45deg);
 }
 
-#drawer-check:checked ~ .drawer-open span::after {
-  top: 0;
-  transform: rotate(-45deg);
+#drawer-check:checked~.drawer-open span::after {
+    top: 0;
+    transform: rotate(-45deg);
 }
-  
+
 /* メニューのデザイン*/
+
 .drawer-content {
-  margin-top: 60px;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 100%;/* メニューを画面の外に飛ばす */
-  z-index: 99;
-  transition: .5s;
+    margin-top: 60px;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    /* メニューを画面の外に飛ばす */
+    z-index: 99;
+    transition: .5s;
 }
 
 /* アイコンがクリックされたらメニューを表示 */
-#drawer-check:checked ~ .drawer-content {
-  left: 0;/* メニューを画面に入れる */
+
+#drawer-check:checked~.drawer-content {
+    left: 0;
+    /* メニューを画面に入れる */
 }
-
-
-
-
-
 
 
 .jumbotron-extend {
@@ -130,30 +168,26 @@ header #mac ul li a {
     min-height: 300px;
     background: url(image/mainimage.jpg) no-repeat center center;
     background-size: cover;
-    
+
 }
-
-
-
-
 
 /*コンセプトの上*/
+
 .space1 {
     padding-top: 140px;
-    
+
 }
-  
-/*コンセプト*/
 
 /*イメージ画像のレスポンシブ*/
+
 .img-fluid {
-    max-width: 100%; 
+    max-width: 100%;
     height: auto;
 }
 
 .space2 {
     padding-top: 30px;
-    
+
 }
 
 .image-yoko p {
@@ -180,8 +214,8 @@ header #mac ul li a {
 }
 
 .space5 .col-sm-3 {
-    margin-left:10px;
-    margin-right:10px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 60px;
 }
 
@@ -191,11 +225,6 @@ header #mac ul li a {
 
 
 /*メニュー*/
-
-.blendtitle h4 {
-    padding-top :25px;
-}
-
 
 .blendsubtitle {
     text-align: right;
@@ -230,16 +259,17 @@ span {
 /*アクセス*/
 
 /*ニュース*/
+
 .art1 h5 {
-    margin-bottom :0;
+    margin-bottom: 0;
 }
 
 .art2 h5 {
-    margin-bottom :0;
+    margin-bottom: 0;
 }
 
 .art3 h5 {
-    margin-bottom :0;
+    margin-bottom: 0;
 }
 
 
@@ -250,9 +280,10 @@ span {
 .art1 {
     padding: 0.5em 1em;
     margin: 2em 0;
-    border-top: dashed 1px #c0c0c0;/*点線*/
+    border-top: dashed 1px #c0c0c0;
+    /*点線*/
     padding-top: 40px;
-    margin-bottom:0;
+    margin-bottom: 0;
 }
 
 .art1 td {
@@ -267,7 +298,8 @@ span {
 .art2 {
     padding: 0.5em 1em;
     margin: 2em 0;
-    border-top: dashed 1px #c0c0c0;/*点線*/
+    border-top: dashed 1px #c0c0c0;
+    /*点線*/
     padding-top: 40px;
 }
 
@@ -284,11 +316,13 @@ span {
 .art3 {
     padding: 0.5em 1em;
     margin: 2em 0;
-    border-top: dashed 1px #c0c0c0;/*点線*/
-    border-bottom: dashed 1px #c0c0c0;/*点線*/
+    border-top: dashed 1px #c0c0c0;
+    /*点線*/
+    border-bottom: dashed 1px #c0c0c0;
+    /*点線*/
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-top:0;
+    margin-top: 0;
 }
 
 .art3 td {
@@ -302,101 +336,104 @@ span {
 
 
 .art1 img {
-    padding-right :20px;
+    padding-right: 20px;
 }
 
 .art2 img {
-    padding-right :20px;
+    padding-right: 20px;
 }
 
 .art3 img {
-    padding-right :20px;
+    padding-right: 20px;
 }
 
 
 /*フッター*/
-ul li a{
-  list-style: none;
-  text-decoration: none;
-  margin: 10px;
-  padding: 10px;
+
+ul li a {
+    list-style: none;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
 }
- 
+
 #footer01 {
-  position: relative;
-  background: #39393B;
+    position: relative;
+    background: #39393B;
 }
- 
+
 #footer01 .logo {
-  text-align: center;
-  padding: 20px 0;
-  
-}
- 
-#footer01 .logo a {
-  display: inline-block;
-}
- 
-#footer01 .logo img {
-  width: 120px;
-}
- 
-#footer01 .nav a {
-  display: block;
-  padding: 0 10px;
-  color: #ccc;
-}
- 
-@media only screen and (min-width: 641px) {
-  /*pcのみ*/
-  #footer01 .nav {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    text-align: center;
     padding: 20px 0;
-  }
-  #footer01 .nav a:hover {
-    color: #ffdab9;
-  }
+
+}
+
+#footer01 .logo a {
+    display: inline-block;
+}
+
+#footer01 .logo img {
+    width: 120px;
+}
+
+#footer01 .nav a {
+    display: block;
+    padding: 0 10px;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+@media only screen and (min-width: 641px) {
+    /*pcのみ*/
+    #footer01 .nav {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding: 20px 0;
+    }
+    #footer01 .nav a:hover {
+        color: #ffdab9;
+    }
 }
 
 
 
 .copyright {
     text-align: center;
-    color : white;
+    color: white;
     padding-bottom: 40px;
     font-size: 7px;
     margin: 0;
 }
 
-footer .nav .lineli li a{
+footer .nav .lineli li a {
     border-right: 1px solid white;
     margin-right: 0;
 }
 
-footer .nav .linelis li a{
+footer .nav .linelis li a {
     border-right: 1px solid white;
     margin-right: 0px;
     margin-left: 0;
 }
 
-footer .nav .linelist li a{
+footer .nav .linelist li a {
     border-right: 1px solid white;
     margin-right: 0px;
     margin-left: 0px;
 }
 
-footer .nav .linelists li a{
-    
+footer .nav .linelists li a {
+
     margin-left: 0px;
 }
