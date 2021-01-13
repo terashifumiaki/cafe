@@ -39,6 +39,7 @@
         
             <!-- メニュー -->
             <nav class="drawer-content">
+                <div id="mac">
               <ul class="drawer-list">
                 <li class="drawer-item">
                   <a href="#move1">Concept</a>
@@ -53,6 +54,7 @@
                   <a href="#move4">News</a>
                 </li><!-- /.drawer-item -->
               </ul><!-- /.drawer-list -->
+                </div>
             </nav>
             
             
@@ -81,9 +83,9 @@
                     <div class="space2">
                     </div>
                         <div class="image-yoko">
-                        concept
-                        <h2>コンセプト</h2>
-                        <p class="space3">NITCHIDE CAFE は博多駅前から徒歩10分のところにあるカフェです。木を基調にした開放的な店内でゆったりとお過ごしいただけます。スタンダードなコーヒーから、こだわりのオリジナルコーヒーをお楽しみください。また氷の量や甘さなどを細かくお客様のお好みの味に変えることができます。</p>
+                            <p>concept</p>
+                            <h2>コンセプト</h2>
+                            <p class="space3">NITCHIDE CAFE は博多駅前から徒歩10分のところにあるカフェです。木を基調にした開放的な店内でゆったりとお過ごしいただけます。スタンダードなコーヒーから、こだわりのオリジナルコーヒーをお楽しみください。また氷の量や甘さなどを細かくお客様のお好みの味に変えることができます。</p>
                         </div>
                 </div>
                 <div class="col-sm-1">
@@ -99,18 +101,22 @@
             <div class="row justify-content-center">
                 <div class="col-sm-6">
                     <div class="space4">
+                        
                         <div id="move2"></div>
-                    Menu
+                        
+                            <div class="image-yoko">
+                                <p>Menu</p>
                     
-                    <h2>当店のメニュー</h2>
-                    <p>バリスタが丁寧に抽出したエスプレッソドリンクや、オリジナルコーヒーをご提供しています。一年を通して様々なフレーバーが楽しめます。</p>
-                    </div>
+                                <h2>当店のメニュー</h2>
+                                <p>バリスタが丁寧に抽出したエスプレッソドリンクや、オリジナルコーヒーをご提供しています。一年を通して様々なフレーバーが楽しめます。</p>
+                            </div>
+                        </div>
                 </div>
                 <div class="col-sm-4">
                     
                 </div>
             </div>
-            
+            <div class="space6"></div>
             <div class="row justify-content-center">
                 <div class="col-sm-1">
                 </div>
@@ -182,13 +188,26 @@
     <section class="sweet">
         <div class="container">
             <div class="row justify-content-center">
-                
-                
-                
-                <div class="col-sm-8">
+                <div class="col-sm-9">
+                <img src="image/line@2x.png" class="img-fluid"　alt="カプチーノ" title="カプチーノ">
+            </div>
+            
+            <div class="space5">
+                <div class="row justify-content-center">
+                    <div class="col-sm-3">
+                            <img src="image/amasa@2x.png" class="img-fluid"　alt="カプチーノ" title="カプチーノ">
+                        
+                    </div>
+                    <div class="col-sm-3">
+                            <img src="image/ice@2x.png" class="img-fluid"　alt="カプチーノ" title="カプチーノ">
+                        
+                    </div>
                     
-                        <img src="image/sugerstatus.png" class="img-fluid"　alt="カプチーノ" title="カプチーノ">
                     
+                    <div class="col-sm-3">
+                            <img src="image/aacc@2x.png" class="img-fluid"　alt="カプチーノ" title="カプチーノ">
+                        
+                    </div>
                 </div>
             </div>
         </div>
@@ -241,9 +260,13 @@
                 
                 <div class="col-sm-8">
                     <div class="art2">
-                            <img src="image/minicafe.jpg" class="img-fluid"　alt="営業時間" title="営業時間">
-                            
-                            aaaa
+                            <table>
+                                <tr>
+                                    <td><img src="image/minicafe.jpg"></td>
+                                    <td>&nbsp;</td>
+                                    <td>2020.07.02&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="image/medianews.jpg"><br>新商品「フラペチーノ」のご紹介<br><a href="#" style="text-decoration: none;">詳細を見る</a><i class="fas fa-search"></i></td>
+                                </tr>
+                            </table>
                     </div>
                         
                     
@@ -257,8 +280,13 @@
                    
                     
                         <div class="art3">
-                            <img src="image/close.jpg" class="img-fluid"　alt="営業時間" title="営業時間">
-                            sssss
+                            <table>
+                                <tr>
+                                    <td><img src="image/close.jpg"></td>
+                                    <td>&nbsp;</td>
+                                    <td>2020.07.14&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="image/medianews.jpg"><br>自粛休業のお知らせ<br><a href="#" style="text-decoration: none;">詳細を見る</a><i class="fas fa-search"></i></td>
+                                </tr>
+                            </table>
                         </div>
                         
                     
@@ -269,8 +297,25 @@
         </div>
     </section>
     
-    <footer>
+    <footer id="footer01" class="footer outer-block">
+      <div class="logo">
         
+          <img src="image/footer.png" alt="ロゴ">
+    
+      </div>
+      <ul class="nav">
+        <div class="lineli">
+                <li><a href="#move1">Concept</a></li>
+        </div>
+                <li><a href="#move2">Menu</a></li>
+                <li><a href="#move3">Access</a></li>
+                <li><a href="#move4">News</a></li>
+        
+        
+      </ul>
+      <p class="copyright">
+        © 2020 Nichide Cafe
+      </p>
     </footer>
     
     
