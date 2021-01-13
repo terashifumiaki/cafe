@@ -186,11 +186,15 @@ header #mac ul li a {
 
 /*メニュー*/
 
+.blendtitle h4 {
+    padding-top :25px;
+}
 
 
 .blendsubtitle {
     text-align: right;
     margin-right: 72px;
+    margin-bottom: 80px;
 }
 
 span {
@@ -201,30 +205,42 @@ span {
     text-justify: inter-ideograph;
 }
 
+.addspa {
+    padding-top: 60px;
+}
+
+.addspa2 {
+    padding-bottom: 40px;
+}
 
 
 /*スウィート*/
 
 .sweet {
-    margin-top: 100px;
+    margin-top: 15px;
 }
 
 
 /*アクセス*/
 
 /*ニュース*/
+.addspa3 {
+    margin-top: 95px;
+}
+
 .art1 {
     padding: 0.5em 1em;
     margin: 2em 0;
     border-top: dashed 1px #c0c0c0;/*点線*/
-    padding-top: 50px;
+    padding-top: 40px;
+    margin-bottom:0;
 }
 
 .art2 {
     padding: 0.5em 1em;
     margin: 2em 0;
     border-top: dashed 1px #c0c0c0;/*点線*/
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .art3 {
@@ -233,6 +249,8 @@ span {
     border-top: dashed 1px #c0c0c0;/*点線*/
     border-bottom: dashed 1px #c0c0c0;/*点線*/
     padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top:0;
 }
 
 .art1 img {
@@ -315,6 +333,22 @@ ul li a{
 
 footer .nav .lineli li a{
     border-right: 1px solid white;
+    margin-right: 0;
 }
 
+footer .nav .linelis li a{
+    border-right: 1px solid white;
+    margin-right: 0px;
+    margin-left: 0;
+}
 
+footer .nav .linelist li a{
+    border-right: 1px solid white;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+footer .nav .linelists li a{
+    
+    margin-left: 0px;
+}
