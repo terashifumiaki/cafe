@@ -1,3 +1,7 @@
+/*各フォント*/
+
+
+
 .snsicon {
     margin-left: 88%;
     padding-top: 10px;
@@ -224,6 +228,19 @@ span {
 /*アクセス*/
 
 /*ニュース*/
+.art1 h5 {
+    margin-bottom :0;
+}
+
+.art2 h5 {
+    margin-bottom :0;
+}
+
+.art3 h5 {
+    margin-bottom :0;
+}
+
+
 .addspa3 {
     margin-top: 95px;
 }
@@ -236,12 +253,31 @@ span {
     margin-bottom:0;
 }
 
+.art1 td {
+    line-height: 35px
+}
+
+.art1 td a {
+    color: black;
+    font-size: 14px;
+}
+
 .art2 {
     padding: 0.5em 1em;
     margin: 2em 0;
     border-top: dashed 1px #c0c0c0;/*点線*/
     padding-top: 40px;
 }
+
+.art2 td {
+    line-height: 35px
+}
+
+.art2 td a {
+    color: black;
+    font-size: 14px;
+}
+
 
 .art3 {
     padding: 0.5em 1em;
@@ -252,6 +288,16 @@ span {
     padding-bottom: 20px;
     margin-top:0;
 }
+
+.art3 td {
+    line-height: 35px
+}
+
+.art3 td a {
+    color: black;
+    font-size: 14px;
+}
+
 
 .art1 img {
     padding-right :20px;
