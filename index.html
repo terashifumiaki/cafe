@@ -8,9 +8,12 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4468360ec8.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
     <header>
+        
         
   
         
@@ -20,46 +23,58 @@
         
         <div class="jumbotron jumbotron-extend" class="img-fluid">
         
-          <!-- ハンバーガーメニュー部分 -->
-  <div class="drawer">
-
-    <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
-    <input type="checkbox" id="drawer-check" class="drawer-hidden" >
-
-    <!-- ハンバーガーアイコン -->
-    <label for="drawer-check" class="drawer-open"><span></span></label>
-
-    <!-- メニュー -->
-    <nav class="drawer-content">
-      <ul class="drawer-list">
-        <li class="drawer-item">
-          <a href="https://terashifumiaki.github.io/fumisport/">私のポートフォリオに飛びます</a>
-        </li><!-- /.drawer-item -->
-        <li class="drawer-item">
-          <a href="https://terashifumiaki.github.io/fumisport/">私のポートフォリオはここです</a>
-        </li><!-- /.drawer-item -->
-        <li class="drawer-item">
-          <a href="https://terashifumiaki.github.io/fumisport/">ここも私のポートフォリオです</a>
-        </li><!-- /.drawer-item -->
-        <li class="drawer-item">
-          <a href="https://terashifumiaki.github.io/fumisport/">すべて私のポートフォリオ入口</a>
-        </li><!-- /.drawer-item -->
         
-      </ul><!-- /.drawer-list -->
-    </nav>
-
-  </div>
+        <div class="snsicon">
+            <a href="https://facebook.com/fumiaki.terashi.5"><i class="fab fa-facebook-square fa-3x" style="color: royalblue;"></i></a><a href="https://twitter.com/teraterafumi"><i class="fab fa-twitter-square fa-3x" style="color: lightskyblue;"></i></a>
+        </div>
+        
+          <!-- ハンバーガーメニュー部分 -->
+          <div class="drawer">
+        
+            <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+            <input type="checkbox" id="drawer-check" class="drawer-hidden" >
+        
+            <!-- ハンバーガーアイコン -->
+            <label for="drawer-check" class="drawer-open" ><span></span></label>
+        
+            <!-- メニュー -->
+            <nav class="drawer-content">
+              <ul class="drawer-list">
+                <li class="drawer-item">
+                  <a href="#move1">Concept</a>
+                </li><!-- /.drawer-item -->
+                <li class="drawer-item">
+                  <a href="#move2">Menu</a>
+                </li><!-- /.drawer-item -->
+                <li class="drawer-item">
+                  <a href="#move3">Access</a>
+                </li><!-- /.drawer-item -->
+                <li class="drawer-item">
+                  <a href="#move4">News</a>
+                </li><!-- /.drawer-item -->
+              </ul><!-- /.drawer-list -->
+            </nav>
+            
+            
+        
+          </div>
+              <div class="down">
+                  <a href="#move1"><i class="fas fa-angle-double-down fa-3x" style="color: white;"></i></a>
+              </div>
         
         
         </div>
     </header>
     
+    <div id="move1"></div>
     <div class="space1"></div>
+    
+    
     
     <section class="concept">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-6" style="padding: 0;">
                     <img src="image/concept2.png" class="img-fluid"　alt="コンセプト" title="コーヒー">
                 </div>
                 <div class="col-sm-5">
@@ -68,7 +83,7 @@
                         <div class="image-yoko">
                         concept
                         <h2>コンセプト</h2>
-                        <p class="space3">NITCHIDE CAFE は博多駅から徒歩10分のところにあるカフェです。木を基調にした開放的な店内でゆったりとお過ごしいただけます。スタンダードなコーヒーから、こだわりのオリジナルコーヒーをお楽しみください。また氷の量や甘さなどを細かくお客様のお好みの味に変えることができます。</p>
+                        <p class="space3">NITCHIDE CAFE は博多駅前から徒歩10分のところにあるカフェです。木を基調にした開放的な店内でゆったりとお過ごしいただけます。スタンダードなコーヒーから、こだわりのオリジナルコーヒーをお楽しみください。また氷の量や甘さなどを細かくお客様のお好みの味に変えることができます。</p>
                         </div>
                 </div>
                 <div class="col-sm-1">
@@ -77,11 +92,14 @@
         </div>
     </section>
     
+    
+    
     <section class="menu">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-sm-6">
                     <div class="space4">
+                        <div id="move2"></div>
                     Menu
                     
                     <h2>当店のメニュー</h2>
@@ -158,40 +176,104 @@
         
     </section>
     
+    
+    
+    
     <section class="sweet">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-1">
-                </div>
+            <div class="row justify-content-center">
                 
-                <div class="col-sm-10">
-                    <div class="ac">
-                        <img src="image/group183.png" class="img-fluid"　alt="カプチーノ" title="カプチーノ">
-                    </div>
+                
+                
+                <div class="col-sm-8">
+                    
+                        <img src="image/sugerstatus.png" class="img-fluid"　alt="カプチーノ" title="カプチーノ">
+                    
                 </div>
             </div>
         </div>
     </section>
     
+    
+    <div id="move3"></div>
     <setion class="access">
     <div class="container-fluid">
         <div class="row">
            
-            <div class="col-sm-9">
-                <div class="moveright">
-            <img src="image/info2.jpg" class="img-fluid"　alt="カプチーノ" title="カプチーノ">
-                </div>
+            <div class="col-sm-9" style="padding: 0;">
+            
+            <img src="image/info2.jpg" class="img-fluid"　alt="マップ" title="マップ">
+                
             </div>
             
             
-            <div class="col-sm-3">
-                <div class="moveright">
-            <img src="image/info.jpg" class="img-fluid"　alt="カプチーノ" title="カプチーノ">
-                </div>
+            <div class="col-sm-3" style="padding: 0;">
+                
+            <img src="image/info.jpg" class="img-fluid"　alt="営業時間" title="営業時間">
+                
             </div>
         </div>
     </div>
     </section>
+    
+    
+    <div id="move4"></div>
+    <section class="news">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-8">
+                    <p>News</p>
+                    <h4>お知らせ</h4>
+                        <div class="art1">
+                            <table>
+                                <tr>
+                                    <td><img src="image/cafestyle.jpg"></td>
+                                    <td>&nbsp;</td>
+                                    <td>2020.06.21&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="image/medianews.jpg"><br>雑誌「カフェスタイル」に掲載されました。<br><a href="#" style="text-decoration: none;">詳細を見る</a><i class="fas fa-search"></i></td>
+                                </tr>
+                            </table>
+                        </div>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center">
+                
+                
+                <div class="col-sm-8">
+                    <div class="art2">
+                            <img src="image/minicafe.jpg" class="img-fluid"　alt="営業時間" title="営業時間">
+                            
+                            aaaa
+                    </div>
+                        
+                    
+                </div>
+            </div>
+            
+            <div class="row justify-content-center">
+                
+                
+                <div class="col-sm-8">
+                   
+                    
+                        <div class="art3">
+                            <img src="image/close.jpg" class="img-fluid"　alt="営業時間" title="営業時間">
+                            sssss
+                        </div>
+                        
+                    
+                </div>
+            </div>
+            
+            
+        </div>
+    </section>
+    
+    <footer>
+        
+    </footer>
+    
+    
     
     
     

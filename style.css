@@ -1,3 +1,28 @@
+.snsicon {
+    margin-left: 88%;
+    padding-top: 10px;
+    position: fixed;
+}
+
+.snsicon i {
+    margin-right: 30px;
+}
+
+.down i {
+   
+    position: relative; top: 700px; left: 50vw;
+      animation: blinkAnime 0.5s infinite alternate;
+}
+@keyframes blinkAnime{
+   0% { color: #ffffff }
+ 100% { color: #000000 }
+}
+
+
+body {
+    background-color: #fafafa;
+}
+
 /* チェックボックスは非表示に */
 .drawer-hidden {
   display: none;
@@ -5,12 +30,13 @@
 
 /* ハンバーガーアイコンの設置スペース */
 .drawer-open {
+  padding-left: 50px;
   display: flex;
-  height: 60px;
+  height: 65px;
   width: 60px;
   justify-content: center;
   align-items: center;
-  position: relative;
+  position: fixed;
   z-index: 100;/* 重なり順を一番上に */
   cursor: pointer;
 }
@@ -24,19 +50,22 @@
   height: 2px;
   width: 30px;
   border-radius: 3px;
-  background: white;
+  background: #ffdead;
   transition: 0.5s;
   position: absolute;
 }
 
 ul {
     list-style: none;
-    margin-top: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
 }
 
 ul li a {
-    color: white;
-    line-height: 50px;
+    font-size: 30px;
+    color: #ffdead;
+    line-height: 60px;
+    text-decoration: none;
     
 }
 
@@ -88,6 +117,7 @@ ul li a {
 
 
 
+
 .jumbotron-extend {
     position: relative;
     height: 100vh;
@@ -109,9 +139,11 @@ ul li a {
   
 /*コンセプト*/
 
-/*.img-fluid {*/
-    /*margin-left: -40px;*/
-/*}*/
+/*イメージ画像のレスポンシブ*/
+.img-fluid {
+    max-width: 100%; 
+    height: auto;
+}
 
 .space2 {
     padding-top: 65px;
@@ -154,9 +186,7 @@ span {
     text-justify: inter-ideograph;
 }
 
-.ac{
-    text-align: center;
-}
+
 
 /*スウィート*/
 
@@ -167,6 +197,29 @@ span {
 
 /*アクセス*/
 
-.miveright {
-    margin-right: -200px;
+/*ニュース*/
+.art1 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    border-top: dashed 1px #c0c0c0;/*点線*/
+    padding-top: 50px;
 }
+
+.art2 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    border-top: dashed 1px #c0c0c0;/*点線*/
+    padding-top: 20px;
+}
+
+.art3 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    border-top: dashed 1px #c0c0c0;/*点線*/
+    border-bottom: dashed 1px #c0c0c0;/*点線*/
+    padding-top: 20px;
+}
+
+
+
+
